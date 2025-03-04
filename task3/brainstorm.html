@@ -1,0 +1,80 @@
+<html>
+<head><title>Web Design Courses</title></head>
+   <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("navbar.html")  
+                .then(response => response.text()) 
+                .then(data => {
+                    document.getElementById("navbar-container").innerHTML = data;
+                })
+                .catch(error => console.error("Error loading navbar:", error));
+        });
+    </script>
+   <div id="navbar-container"></div>
+   <div style="padding:30px;background-image:url(images/grid-left.svg)"></div>
+ 
+<body style="background-color:#101d42;padding:10px;">
+   <div style="background-image:url(images/grid-right.svg)">
+<div style="padding-left:150px;">
+<div style="background-color:#101d42;padding:1px;display:flex;gap:30px;width:980px;">
+<div>
+    <div style="padding:10px ;position:relative;top:10px;right:500px;background-color:#101d42 ; padding-left:150px ;padding-top:100px"  ></div>
+   
+<div style="color:white;width:500px;position: relative;left:-60px ;top:-110px;">
+<h1>Web Design Courses</h1>
+<br>
+<div style="display:block;padding:2px;background-color:#ffcf00 ;width:50px;position:relative;right:-10px;"></div>
+<br>
+<br>
+<p>Web design refers to the design, creation, and maintenance of websites. The terms web design and web development are often used interchangeably, however, web design typically refers to <br> the front-end (client side) of a website, which includes its appearance, layout, and content. Web design involves a range of tasks, including graphic design, user interface (UI) design, user experience (UX) design, and search engine optimization.<br> Successful Web Designers typically have a strong understanding of HTML, CSS, and JAVA, as well as UX design and UI design principles.</p>
+</div>
+</div>
+
+<div >
+   
+    <div style="padding:120px ;position:relative;top:120px;right:-200px;background-color:#ffcf00 ;width:35px ;padding-top:100px"  ></div>
+    <div style="padding:120px ;position:relative;top:100px;right:-320px;background-color:#101d42;width:30px;"  ></div>
+    <img src="images/w1.png" style="border-radius:5px ;top:-320px;position:relative;right:45px ;height:330px" >
+</div>
+
+
+
+</div>
+</div>
+
+
+</div>
+</body>
+
+</html>
+
+<style>
+h1{
+  font-family  : AvenirNext, Helvetica, Arial, sans-serif;
+position:relative;
+top:22px;
+  font-size: 3.4285714286rem;
+font-size:50px;
+text-align:left;
+padding-left:10px;
+
+}
+p{
+    font-family: Merriweather, serif;
+
+text-align:left;
+padding-bottom:150px;
+margin:auto;
+line-height:1.6;
+width:480px;
+font-weight:underline;
+font-size:18px;
+}
+
+
+
+
+
+
+</style>
